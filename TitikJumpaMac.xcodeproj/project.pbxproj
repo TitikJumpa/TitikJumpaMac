@@ -13,6 +13,7 @@
 		F0BC99E324E971A7006FE6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BC99E124E971A7006FE6CA /* Main.storyboard */; };
 		F0BC99E524E971A7006FE6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BC99E424E971A7006FE6CA /* Assets.xcassets */; };
 		F0BC99E824E971A7006FE6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BC99E624E971A7006FE6CA /* LaunchScreen.storyboard */; };
+		F0BC99F224E971F1006FE6CA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BC99F124E971F1006FE6CA /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		F0BC99E424E971A7006FE6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0BC99E724E971A7006FE6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0BC99E924E971A7006FE6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BC99EF24E971B4006FE6CA /* TitikJumpaMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TitikJumpaMac.entitlements; sourceTree = "<group>"; };
+		F0BC99F124E971F1006FE6CA /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BC99F224E971F1006FE6CA /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +46,7 @@
 			children = (
 				F0BC99DA24E971A7006FE6CA /* TitikJumpaMac */,
 				F0BC99D924E971A7006FE6CA /* Products */,
+				F0BC99F024E971F1006FE6CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +61,7 @@
 		F0BC99DA24E971A7006FE6CA /* TitikJumpaMac */ = {
 			isa = PBXGroup;
 			children = (
+				F0BC99EF24E971B4006FE6CA /* TitikJumpaMac.entitlements */,
 				F0BC99DB24E971A7006FE6CA /* AppDelegate.swift */,
 				F0BC99DD24E971A7006FE6CA /* SceneDelegate.swift */,
 				F0BC99DF24E971A7006FE6CA /* ViewController.swift */,
@@ -65,6 +71,14 @@
 				F0BC99E924E971A7006FE6CA /* Info.plist */,
 			);
 			path = TitikJumpaMac;
+			sourceTree = "<group>";
+		};
+		F0BC99F024E971F1006FE6CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0BC99F124E971F1006FE6CA /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,17 +298,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TitikJumpaMac/TitikJumpaMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T6A37YY89;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = TitikJumpaMac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WE4US.TitikJumpaMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -302,17 +321,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TitikJumpaMac/TitikJumpaMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T6A37YY89;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = TitikJumpaMac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WE4US.TitikJumpaMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
