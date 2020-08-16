@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		F0BC99E524E971A7006FE6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BC99E424E971A7006FE6CA /* Assets.xcassets */; };
 		F0BC99E824E971A7006FE6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BC99E624E971A7006FE6CA /* LaunchScreen.storyboard */; };
 		F0BC99F224E971F1006FE6CA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BC99F124E971F1006FE6CA /* CloudKit.framework */; };
+		F0BC99F924E98258006FE6CA /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = F0BC99F824E98258006FE6CA /* SideMenu */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BC99F924E98258006FE6CA /* SideMenu in Frameworks */,
 				F0BC99F224E971F1006FE6CA /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +67,10 @@
 				F0BC99DB24E971A7006FE6CA /* AppDelegate.swift */,
 				F0BC99DD24E971A7006FE6CA /* SceneDelegate.swift */,
 				F0BC99DF24E971A7006FE6CA /* ViewController.swift */,
+				F0BC99F324E9752F006FE6CA /* model */,
+				F0BC99F424E97540006FE6CA /* view */,
+				F0BC99F524E97555006FE6CA /* cell */,
+				F0BC99F624E97576006FE6CA /* controller */,
 				F0BC99E124E971A7006FE6CA /* Main.storyboard */,
 				F0BC99E424E971A7006FE6CA /* Assets.xcassets */,
 				F0BC99E624E971A7006FE6CA /* LaunchScreen.storyboard */,
@@ -79,6 +85,34 @@
 				F0BC99F124E971F1006FE6CA /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0BC99F324E9752F006FE6CA /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F0BC99F424E97540006FE6CA /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F0BC99F524E97555006FE6CA /* cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F0BC99F624E97576006FE6CA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +131,9 @@
 			dependencies = (
 			);
 			name = TitikJumpaMac;
+			packageProductDependencies = (
+				F0BC99F824E98258006FE6CA /* SideMenu */,
+			);
 			productName = TitikJumpaMac;
 			productReference = F0BC99D824E971A7006FE6CA /* TitikJumpaMac.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +162,9 @@
 				Base,
 			);
 			mainGroup = F0BC99CF24E971A7006FE6CA;
+			packageReferences = (
+				F0BC99F724E98258006FE6CA /* XCRemoteSwiftPackageReference "SideMenu" */,
+			);
 			productRefGroup = F0BC99D924E971A7006FE6CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -362,6 +402,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F0BC99F724E98258006FE6CA /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.4.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0BC99F824E98258006FE6CA /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0BC99F724E98258006FE6CA /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F0BC99D024E971A7006FE6CA /* Project object */;
 }
