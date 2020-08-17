@@ -7,27 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F02B9AA824EA3BEE006E3853 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BC99F124E971F1006FE6CA /* CloudKit.framework */; };
 		F0BC99DC24E971A7006FE6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC99DB24E971A7006FE6CA /* AppDelegate.swift */; };
 		F0BC99DE24E971A7006FE6CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC99DD24E971A7006FE6CA /* SceneDelegate.swift */; };
 		F0BC99E024E971A7006FE6CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC99DF24E971A7006FE6CA /* ViewController.swift */; };
-		F0BC99E324E971A7006FE6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BC99E124E971A7006FE6CA /* Main.storyboard */; };
 		F0BC99E524E971A7006FE6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BC99E424E971A7006FE6CA /* Assets.xcassets */; };
 		F0BC99E824E971A7006FE6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BC99E624E971A7006FE6CA /* LaunchScreen.storyboard */; };
-		F0BC99F224E971F1006FE6CA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BC99F124E971F1006FE6CA /* CloudKit.framework */; };
 		F0BC99F924E98258006FE6CA /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = F0BC99F824E98258006FE6CA /* SideMenu */; };
+		F0BC99FB24E9A6C9006FE6CA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC99FA24E9A6C9006FE6CA /* Event.swift */; };
+		F0BC99FD24E9A6EE006FE6CA /* Volunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC99FC24E9A6EE006FE6CA /* Volunteer.swift */; };
+		F0BC99FF24E9A730006FE6CA /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC99FE24E9A730006FE6CA /* EventCell.swift */; };
+		F0BC9A0324E9B243006FE6CA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC9A0224E9B243006FE6CA /* SignInViewController.swift */; };
+		F0BC9A0524E9BD4E006FE6CA /* AddEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC9A0424E9BD4E006FE6CA /* AddEventVC.swift */; };
+		F0BC9A0724E9C98B006FE6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BC9A0624E9C98B006FE6CA /* Main.storyboard */; };
+		F0BC9A0B24E9CBD7006FE6CA /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC9A0824E9CBD7006FE6CA /* SideMenuTableViewController.swift */; };
+		F0BC9A0C24E9CBD7006FE6CA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC9A0924E9CBD7006FE6CA /* MainViewController.swift */; };
+		F0BC9A0D24E9CBD7006FE6CA /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC9A0A24E9CBD7006FE6CA /* PresentedViewController.swift */; };
+		F0BC9A0F24E9DE15006FE6CA /* UpcomingEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC9A0E24E9DE15006FE6CA /* UpcomingEventVC.swift */; };
+		F0BC9A1324E9FFEB006FE6CA /* GenerateQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC9A1224E9FFEB006FE6CA /* GenerateQRCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F0BC99D824E971A7006FE6CA /* TitikJumpaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitikJumpaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BC99D824E971A7006FE6CA /* .Jumpa Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ".Jumpa Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BC99DB24E971A7006FE6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0BC99DD24E971A7006FE6CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F0BC99DF24E971A7006FE6CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F0BC99E224E971A7006FE6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0BC99E424E971A7006FE6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0BC99E724E971A7006FE6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0BC99E924E971A7006FE6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0BC99EF24E971B4006FE6CA /* TitikJumpaMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TitikJumpaMac.entitlements; sourceTree = "<group>"; };
 		F0BC99F124E971F1006FE6CA /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		F0BC99FA24E9A6C9006FE6CA /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F0BC99FC24E9A6EE006FE6CA /* Volunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volunteer.swift; sourceTree = "<group>"; };
+		F0BC99FE24E9A730006FE6CA /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		F0BC9A0224E9B243006FE6CA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F0BC9A0424E9BD4E006FE6CA /* AddEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventVC.swift; sourceTree = "<group>"; };
+		F0BC9A0624E9C98B006FE6CA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F0BC9A0824E9CBD7006FE6CA /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		F0BC9A0924E9CBD7006FE6CA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F0BC9A0A24E9CBD7006FE6CA /* PresentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
+		F0BC9A0E24E9DE15006FE6CA /* UpcomingEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventVC.swift; sourceTree = "<group>"; };
+		F0BC9A1224E9FFEB006FE6CA /* GenerateQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateQRCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +56,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0BC99F924E98258006FE6CA /* SideMenu in Frameworks */,
-				F0BC99F224E971F1006FE6CA /* CloudKit.framework in Frameworks */,
+				F02B9AA824EA3BEE006E3853 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +75,7 @@
 		F0BC99D924E971A7006FE6CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0BC99D824E971A7006FE6CA /* TitikJumpaMac.app */,
+				F0BC99D824E971A7006FE6CA /* .Jumpa Admin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,12 +86,10 @@
 				F0BC99EF24E971B4006FE6CA /* TitikJumpaMac.entitlements */,
 				F0BC99DB24E971A7006FE6CA /* AppDelegate.swift */,
 				F0BC99DD24E971A7006FE6CA /* SceneDelegate.swift */,
-				F0BC99DF24E971A7006FE6CA /* ViewController.swift */,
 				F0BC99F324E9752F006FE6CA /* model */,
 				F0BC99F424E97540006FE6CA /* view */,
 				F0BC99F524E97555006FE6CA /* cell */,
 				F0BC99F624E97576006FE6CA /* controller */,
-				F0BC99E124E971A7006FE6CA /* Main.storyboard */,
 				F0BC99E424E971A7006FE6CA /* Assets.xcassets */,
 				F0BC99E624E971A7006FE6CA /* LaunchScreen.storyboard */,
 				F0BC99E924E971A7006FE6CA /* Info.plist */,
@@ -90,6 +108,8 @@
 		F0BC99F324E9752F006FE6CA /* model */ = {
 			isa = PBXGroup;
 			children = (
+				F0BC99FA24E9A6C9006FE6CA /* Event.swift */,
+				F0BC99FC24E9A6EE006FE6CA /* Volunteer.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -97,6 +117,7 @@
 		F0BC99F424E97540006FE6CA /* view */ = {
 			isa = PBXGroup;
 			children = (
+				F0BC9A0624E9C98B006FE6CA /* Main.storyboard */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -104,6 +125,7 @@
 		F0BC99F524E97555006FE6CA /* cell */ = {
 			isa = PBXGroup;
 			children = (
+				F0BC99FE24E9A730006FE6CA /* EventCell.swift */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -111,6 +133,14 @@
 		F0BC99F624E97576006FE6CA /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F0BC99DF24E971A7006FE6CA /* ViewController.swift */,
+				F0BC9A0924E9CBD7006FE6CA /* MainViewController.swift */,
+				F0BC9A0A24E9CBD7006FE6CA /* PresentedViewController.swift */,
+				F0BC9A0824E9CBD7006FE6CA /* SideMenuTableViewController.swift */,
+				F0BC9A0224E9B243006FE6CA /* SignInViewController.swift */,
+				F0BC9A1224E9FFEB006FE6CA /* GenerateQRCode.swift */,
+				F0BC9A0E24E9DE15006FE6CA /* UpcomingEventVC.swift */,
+				F0BC9A0424E9BD4E006FE6CA /* AddEventVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -135,7 +165,7 @@
 				F0BC99F824E98258006FE6CA /* SideMenu */,
 			);
 			productName = TitikJumpaMac;
-			productReference = F0BC99D824E971A7006FE6CA /* TitikJumpaMac.app */;
+			productReference = F0BC99D824E971A7006FE6CA /* .Jumpa Admin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +211,7 @@
 			files = (
 				F0BC99E824E971A7006FE6CA /* LaunchScreen.storyboard in Resources */,
 				F0BC99E524E971A7006FE6CA /* Assets.xcassets in Resources */,
-				F0BC99E324E971A7006FE6CA /* Main.storyboard in Resources */,
+				F0BC9A0724E9C98B006FE6CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,23 +222,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BC9A0D24E9CBD7006FE6CA /* PresentedViewController.swift in Sources */,
+				F0BC9A0324E9B243006FE6CA /* SignInViewController.swift in Sources */,
+				F0BC9A1324E9FFEB006FE6CA /* GenerateQRCode.swift in Sources */,
+				F0BC99FB24E9A6C9006FE6CA /* Event.swift in Sources */,
 				F0BC99E024E971A7006FE6CA /* ViewController.swift in Sources */,
 				F0BC99DC24E971A7006FE6CA /* AppDelegate.swift in Sources */,
+				F0BC9A0B24E9CBD7006FE6CA /* SideMenuTableViewController.swift in Sources */,
 				F0BC99DE24E971A7006FE6CA /* SceneDelegate.swift in Sources */,
+				F0BC99FF24E9A730006FE6CA /* EventCell.swift in Sources */,
+				F0BC99FD24E9A6EE006FE6CA /* Volunteer.swift in Sources */,
+				F0BC9A0F24E9DE15006FE6CA /* UpcomingEventVC.swift in Sources */,
+				F0BC9A0524E9BD4E006FE6CA /* AddEventVC.swift in Sources */,
+				F0BC9A0C24E9CBD7006FE6CA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F0BC99E124E971A7006FE6CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0BC99E224E971A7006FE6CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F0BC99E624E971A7006FE6CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,8 +381,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = WE4US.TitikJumpaMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ".Jumpa Admin";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -372,8 +405,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = WE4US.TitikJumpaMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ".Jumpa Admin";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        menu = SideMenuNavigationController(rootViewController: MenuListController())
+        menu = SideMenuNavigationController(rootViewController: AddEventViewController())
         menu?.leftSide = true
         menu?.setNavigationBarHidden(true, animated: false)
         SideMenuManager.default.leftMenuNavigationController = menu
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
 
 class MenuListController: UITableViewController {
     
-    var items = ["Upcoming Events", "Add Events"]
+    var items = [" ", "Upcoming Events", "Add Events"]
     
     let color = UIColor (red: 0.0/255, green: 24.0/255, blue: 50.0/255, alpha: 1.0)
     
@@ -61,7 +61,7 @@ class MenuListController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+
+    
     }
 }
-
- 
